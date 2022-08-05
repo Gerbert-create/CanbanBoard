@@ -1,0 +1,92 @@
+.tasksBlock {
+	width: 300px;
+	height: 100%;
+}
+
+.tasksBlock__mainBlock {
+	width: 282px;
+	min-height: 197px;
+	max-height: 100%;
+	background-color: rgba(235, 236, 240, 1);
+	padding: 12px 0 15px 12px;
+	border-radius: 10px;
+	margin: 0 auto 0 auto;
+}
+
+.tasksBlock__mainBlock__contentBlock {
+	width: 100%;
+	min-height: auto;
+	max-height: 442px;
+	overflow-y: auto;
+	padding-right: 12px;
+}
+
+.tasksBlock__mainBlock__contentBlock::-webkit-scrollbar {
+	width: 12px;
+}
+
+
+.tasksBlock__mainBlock__contentBlock::-webkit-scrollbar-track {
+	background-color: white;
+}
+
+.tasksBlock__mainBlock__contentBlock::-webkit-scrollbar-thumb {
+	background-color: rgba(203, 203, 203, 1);
+	border-radius: 5px;
+}
+
+.tasksBlock__mainBlock__title {
+	font-size: 18px;
+}
+
+.item {
+	width: 100%;
+	min-height: 35px;
+	background-color: white;
+	overflow-wrap: break-word;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 7px 8px;
+	font-size: 18px;
+}
+
+.tasksBlock__mainBlock__textarea {
+	caret-color: black;
+	resize: none;
+}
+
+.tasksBlock__mainBlock__button::before {
+	width: 14px;
+	height: 14px;
+	content: url('img/+.png');
+	margin-right: 7px;
+	margin-top: 6px;
+}
+
+.tasksBlock__mainBlock__button {
+	width: 102px;
+	height: 29px;
+	font-size: 18px;
+	color: rgba(94, 108, 132, 1);
+	margin-top: 17px;
+	background: none;
+	border-radius: 5px;
+}
+
+.tasksBlock__mainBlock__button:hover {
+	background-color: white;
+}
+
+.tasksBlock__mainBlock__button.active {
+	background-color: rgba(0, 121, 191, 1);
+	color: white;
+	box-shadow: 1px 1px 0px 0.1px;
+}
+
+.tasksBlock__mainBlock__button.active:hover {
+	box-shadow: 0px 0px 3px 0.1px rgb(67, 67, 67);
+}
+
+.tasksBlock__mainBlock__button.active::before {
+	content: '';
+}

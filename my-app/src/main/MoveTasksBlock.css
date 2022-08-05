@@ -1,0 +1,33 @@
+.move-tasksBlock {
+	width: 1181px;
+	height: 548px;
+	background-color: white;
+	padding: 22px 30px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
+.move-tasksBlock__title {
+	width: 352px;
+	height: 28px;
+	font-size: 24px;
+}
+
+.move-tasksBlock__cross {
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	top: 17px;
+	right: 23px;
+}
+
+.move-tasksBlock__textarea {
+	width: 100%;
+	height: 441px;
+	margin-top: 35px;
+	font-size: 18px;
+	caret-color: black;
+	resize: none;
+}

@@ -1,0 +1,43 @@
+footer {
+	width: 100%;
+	height: 55px;
+	background-color: rgba(0, 103, 163, 1);
+}
+
+.footerBlock {
+	width: 100%;
+	max-width: 1235px;
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 17px 21px 17px 21px;
+	margin: 0 auto;
+}
+
+.footerBlock__infoTasks {
+	width: 333px;
+	height: 21px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.indicators {
+	width: 138px;
+	height: 21px;
+	font-size: 18px;
+	color: white;
+}
+
+.footerBlock__infoTasks__finishedTasks {
+	margin-left: 36px;
+}
+
+.footerBlock__author {
+	width: 322px;
+	height: 21px;
+	color: white;
+	font-size: 18px;
+}

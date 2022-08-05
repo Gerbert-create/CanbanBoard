@@ -1,0 +1,93 @@
+@media screen and (min-width: 1235px) {
+
+	#root {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	header,
+	main,
+	footer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1235px) {
+
+	#root {
+		min-width: 338px;
+		max-width: 100%;
+		height: 100%;
+	}
+
+	header,
+	main,
+	footer {
+		min-width: 338px;
+		max-width: 100%;
+	}
+
+	main {
+		height: auto;
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+
+	.mainContent {
+		flex-wrap: wrap;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.tasksBlock {
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.move-tasksBlock {
+		width: 100%;
+		height: 100%;
+	}
+
+	.tasksBlock__mainBlock__textarea {
+		height: 100%
+	}
+}
+
+@media screen and (max-width: 715px) {
+
+	.footerBlock__author {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	#root {
+		padding-bottom: 186px;
+	}
+
+	.headerBlock__title {
+		display: none;
+	}
+
+	main {
+		height: auto;
+	}
+
+	.headerBlock {
+		padding: 0 15px;
+		justify-content: flex-end;
+	}
+
+	header,
+	footer {
+		background: none;
+	}
+
+	footer {
+		display: none;
+	}
+
+}

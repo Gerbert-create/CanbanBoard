@@ -1,0 +1,29 @@
+.userNav {
+	height: 68px;
+	position: absolute;
+	top: 40px;
+	right: 1px;
+	z-index: 1;
+}
+
+.userNav__options {
+	width: 120px;
+	height: 47px;
+	position: absolute;
+	top: 16px;
+	left: 7px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.option {
+	width: 120px;
+	height: 22px;
+	font-size: 14px;
+}
+
+.option:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

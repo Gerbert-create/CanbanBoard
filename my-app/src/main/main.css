@@ -1,0 +1,15 @@
+main {
+	width: 1235px;
+	height: 100%;
+	background-color: rgba(0, 121, 191, 1);
+	padding: 20px 0 32px 0;
+}
+
+.mainContent {
+	width: 1181px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto 0 auto;
+}

@@ -1,0 +1,31 @@
+.profileLogo {
+	width: 64px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+}
+
+.profileLogo__userFoto {
+	width: 38.4px;
+	height: 38.4px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.profileLogo__pointer {
+	width: 24px;
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.profileLogo__pointer:hover {
+	cursor: pointer;
+}
